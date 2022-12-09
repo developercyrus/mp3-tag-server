@@ -39,7 +39,10 @@ function scan(dir) {
                   obj.tags = null;
                 }
                 results.push(obj);
-                if (!tags.hasOwnProperty("image")) {
+                if (tags.hasOwnProperty("image")) {
+                  console.log(obj);
+                }
+                else {
                   console.log(JSON.stringify(obj, null, 2));
                 }
               });
