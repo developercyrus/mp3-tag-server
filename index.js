@@ -39,7 +39,9 @@ function scan(dir) {
                   obj.tags = null;
                 }
                 results.push(obj);
-                console.log(JSON.stringify(obj, null, 2));
+                if (!tags.hasOwnProperty("image")) {
+                  console.log(JSON.stringify(obj, null, 2));
+                }
               });
             }
             catch(e) {
