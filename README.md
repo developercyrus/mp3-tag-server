@@ -1,6 +1,6 @@
 ### Notes
 ```bash
-On 2022 Dec 08, found that some of mp3 with version version 2.4 cannot be parsed correctly
+On 2022 Dec 08, found that some of mp3 with version version 2.4 cannot be parsed correctly. Please switch to [another project](https://github.com/developercyrus/mp3-tag-server-v2)
 ```
 
 ### Run by docker
